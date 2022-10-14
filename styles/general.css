@@ -1,0 +1,44 @@
+/*Definition of Variables*/
+:root{
+    --main-color : rgba(40,72,198,1);
+    --secondary-color:rgba(31,62,114,1);
+    --text-color: rgba(112,126,149,1);
+    --icon-background-color:rgba(238,243,255,1);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+h3{
+    color: var(--main-color);
+    font-size: 18px;
+    /* font-family: Roboto, Arial, sans-serif; */
+}
+.normal-sec{
+    padding: 20px 60px 20px 60px;
+}
+.dark-btn{
+    border: none;
+    border-radius: 3px;
+    padding: 8px 14px;
+    background-color: var(--main-color);
+    font-size: 900;
+    color: rgba(255,255,255,1);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
