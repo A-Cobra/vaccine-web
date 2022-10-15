@@ -1,0 +1,34 @@
+#page-body #hero{
+    position: relative;
+ 
+}
+#page-body #hero::before
+,#page-body #hero::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--icon-background-color);
+    height: 50px;
+    width: 90px;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+#page-body #hero::before{
+    transform: rotate(180deg);
+    left: 20px;
+
+}
+
+/* #page-body #hero::after:hover{
+    border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
+    background-color: aqua;
+
+} */
+
+
+#page-body .hero-text{
+
+    background-color: red;
+
+}
