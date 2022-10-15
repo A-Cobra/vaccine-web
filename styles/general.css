@@ -34,7 +34,7 @@ h3{
 .dark-btn{
     border: none;
     border-radius: 3px;
-    padding: 8px 14px;
+    padding: 8px 18px;
     background-color: var(--main-color);
     font-size: 900;
     color: rgba(255,255,255,1);

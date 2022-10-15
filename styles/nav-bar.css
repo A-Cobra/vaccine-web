@@ -1,8 +1,17 @@
-
+body{
+    background-color: pink;
+    margin-top: 100px;
+}
 header{
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: solid 2px rgba(255, 255, 255, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* border-bottom: solid 2px blue; */
     
 }
 header #menu-list{
@@ -15,4 +24,8 @@ header #menu-list a{
 }
 header #menu-list li{   
     padding: 0 15px;
+}
+header #menu-list button{   
+    white-space: nowrap;
+    box-shadow: 0 8px 10px rgba(40,72,198,0.3);
 }
