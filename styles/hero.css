@@ -1,23 +1,110 @@
-#page-body #hero{
-    position: relative;
+#page-body #hero .hero-content{
+    /* position: relative; */
+    display: flex;
  
 }
-#page-body #hero::before
-,#page-body #hero::after{
+#page-body #hero .hero-text{
+    width: 52%;
+    position: relative;
+    margin-top: 100px;
+    background-color: red;
+ 
+}
+
+#page-body #hero .hero-text h1{
+    padding-top: 40px;
+}
+
+
+#page-body #hero .hero-text::before
+,#page-body #hero .hero-text::after{
     content: "";
     position: absolute;
-    bottom: 0;
-    left: 0;
     background-color: var(--icon-background-color);
     height: 50px;
     width: 90px;
     clip-path: polygon(0 100%, 50% 0, 100% 100%);
 }
 
-#page-body #hero::before{
+#page-body #hero .hero-text::before{
     transform: rotate(180deg);
+    top: 0;
     left: 20px;
 
+}
+
+#page-body #hero .hero-text .perks span,
+#page-body #hero .hero-text .schedule span,
+#page-body #hero .toolkit .toolkit-text{
+    color: var(--secondary-color);
+}
+
+#page-body #hero .hero-text .schedule span{
+    font-size: 18px;
+}
+
+#page-body #hero .hero-text::after{
+    /*CHECK THIS ONE*/
+    transform: rotate(-90deg) scale(1.5);
+    right: -7px;
+    bottom: 50%;
+
+}
+
+#page-body #hero .hero-text p,
+#page-body #hero .hero-text h1,
+#page-body #hero .hero-text i,
+#page-body #hero .hero-text span{
+    z-index: 5;
+}
+
+
+
+#page-body #hero .hero-text p{
+    padding-bottom: 20px;
+}
+
+#page-body #hero .hero-text .perks{
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#page-body #hero .hero-text .perks i{
+    margin-right: 10px; 
+    background-color: var(--main-perk-background);
+    color: var(--main-perk);
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 20px; */
+}
+
+#page-body #hero .hero-text .perks .perk1{
+    margin-right: 20px; 
+}
+
+
+#page-body #hero .hero-text .schedule{
+    padding-bottom: 120px;
+}
+
+
+
+#page-body #hero .hero-image{
+    background-color: gray;
+    
+    flex: 1;
+ 
+}
+
+#page-body #hero .toolkit{
+    background-color: blue;
+ 
 }
 
 /* #page-body #hero::after:hover{
@@ -26,9 +113,3 @@
 
 } */
 
-
-#page-body .hero-text{
-
-    background-color: red;
-
-}

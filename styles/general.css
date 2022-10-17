@@ -25,14 +25,36 @@ a{
 }
 
 
+h1{
+    color: var(--secondary-color);
+    font-size: 30px;
+    /* font-family: Roboto, Arial, sans-serif; */
+}
+
 h3{
     color: var(--main-color);
     font-size: 18px;
     /* font-family: Roboto, Arial, sans-serif; */
 }
+
+i{
+    color: var(--main-color);
+}
 .normal-sec{
     padding: 20px 60px 20px 60px;
 }
+
+.left-pad-sec{
+    padding: 20px 0px 20px 60px;
+}
+
+.right-pad-sec{
+    padding: 20px 60px 20px 0px;
+}
+.side-pad{
+    padding: 0 60px;
+}
+
 .dark-btn{
     border: none;
     border-radius: 3px;
