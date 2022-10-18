@@ -1,0 +1,94 @@
+#page-body{}
+
+#page-body #feature{
+    position: relative;
+    border-bottom: 4px solid var(--separator);
+}
+
+
+
+#page-body #feature::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    background-color: var(--icon-background-color);
+    /* background-color: red; */
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+
+}
+
+#page-body #feature::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 90px;
+    background-color: var(--icon-background-color);
+    /* background-color: red; */
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+
+}
+
+
+#page-body #feature .reason-to-vaccine{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    width: 45%;
+    min-width: 350px;
+}
+#page-body #feature .reason-to-vaccine h1{
+    margin-top: 0;
+}
+
+
+#page-body #feature .feature-cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-body #feature .feature-cards .card{
+    width: 200px;
+    border-radius: 6px;
+    border: 2px solid var(--icon-background-color);
+    padding: 15px 15px 30px 15px;
+    transition: ease-in 0.15s;
+    margin: 40px;
+    /* margin-right: 30px; */
+}
+
+#page-body #feature .feature-cards .card:hover{
+    background-color: var(--icon-background-color);
+    border: 2px solid rgba(255,255,255,1);
+    /* padding: 15px 15px 30px 15px; */
+    box-shadow: 0px 10px 30px var(--main-color-shadow);
+}
+
+#page-body #feature .feature-cards .card:hover i{
+    box-shadow: 0px 5px 15px var(--main-color-shadow);
+}
+
+#page-body #feature .feature-cards .card p{
+    font-size: 11px;
+    line-height: 180%;
+}
+
+#page-body #feature .feature-cards .card i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 1);
+
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--icon-background-color);
+}

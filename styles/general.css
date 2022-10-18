@@ -1,10 +1,11 @@
 /*Definition of Variables*/
 :root{
-    --main-color : rgba(40,72,198,1);
-    --main-color-shadow : rgba(40,72,198,0.2);
+    --main-color: rgba(40,72,198,1);
+    --main-color-shadow: rgba(40,72,198,0.2);
     --secondary-color:rgba(31,62,114,1);
     --text-color: rgba(112,126,149,1);
     --icon-background-color:rgba(238,243,255,1);
+    --separator:rgba(238,238,238,1);
     --main-perk: rgba(255,208,18,1);
     --main-perk-background: rgba(255,208,18,0.15);
 }
@@ -39,6 +40,14 @@ h3{
     /* font-family: Roboto, Arial, sans-serif; */
 }
 
+
+h4{
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 500;
+    /* font-family: Roboto, Arial, sans-serif; */
+}
+
 i{
     color: var(--main-color);
 }
@@ -51,6 +60,15 @@ p{
 .normal-sec{
     padding: 20px 60px 20px 60px;
 }
+
+.double-sec{
+    padding: 110px 60px 110px 60px;
+}
+
+.big-sec{
+    padding: 110px 20px 110px 20px;
+}
+
 
 .left-pad-sec{
     padding: 20px 0px 20px 60px;
