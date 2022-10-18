@@ -1,6 +1,7 @@
 /*Definition of Variables*/
 :root{
     --main-color : rgba(40,72,198,1);
+    --main-color-shadow : rgba(40,72,198,0.2);
     --secondary-color:rgba(31,62,114,1);
     --text-color: rgba(112,126,149,1);
     --icon-background-color:rgba(238,243,255,1);
@@ -28,6 +29,7 @@ a{
 h1{
     color: var(--secondary-color);
     font-size: 30px;
+    font-weight: 900;
     /* font-family: Roboto, Arial, sans-serif; */
 }
 
@@ -40,6 +42,12 @@ h3{
 i{
     color: var(--main-color);
 }
+
+p{
+    color: var(--text-color);
+    font-weight: 500;
+}
+
 .normal-sec{
     padding: 20px 60px 20px 60px;
 }
