@@ -10,7 +10,8 @@
  
 }
 #page-body #hero .hero-text{
-    width: 52%;
+    /* width: 52%; */
+    flex: 1;
     position: relative;
     margin-top: 100px;
     background-color: red;
@@ -125,8 +126,12 @@
 
 #page-body #hero .hero-image{
     /* background-color: gray; */
-    /* width: 48%; */
-    flex: 1;
+
+    width: 48%;
+    max-width: 400px;/*WORKS LIKE BUTTER*/
+    max-width: 450px;
+    
+    /* flex: 1; */
     
     /* max-height: 550px; */
  

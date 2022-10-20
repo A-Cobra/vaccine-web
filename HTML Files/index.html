@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccination</title>
+    <!--SCRIPTS-->
+    <script src="/scripts/nav-bar.js" defer></script>
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +17,34 @@
     <link rel="stylesheet" href="../styles/hero.css">
     <link rel="stylesheet" href="../styles/carousel.css">
     <link rel="stylesheet" href="../styles/feature.css">
+    <link rel="stylesheet" href="../styles/media-queries.css">
     <!--Font Awesome Icons-->
     <script src="https://kit.fontawesome.com/3692b39abf.js"></script>
+
 </head>
 <body>
     <header id="nav-bar" class="normal-sec">
         <div id="logo-container">
             <h3>Vaccination</h3>
         </div>
-        <nav>
+
+        <div class="menu">
             <ul id="menu-list">  
                 <li><a href="#">Database</a></li>
                 <li><a href="#">Education</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Regulation</a></li>
-                <li><a href="#"><button class="dark-btn">Hoax Buster</button></a></li>
+                <li id="hoax-btn"><a href="#"><button class="dark-btn">Hoax Buster</button></a></li>
+                <i id="close" class="fa-solid fa-square-xmark"></i>
             </ul>
-        </nav>
+        </div>
+        
+
+        <div id="mobile">
+            <a href="#"><button class="dark-btn">Hoax Buster</button></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
         
     </header>
 
@@ -52,7 +65,7 @@
                         <span>Schedule your vaccinations</span>
 
 
-
+                        <!--FLOATING TOOLKIT-->
                         <div class="toolkit">
                             <div class="toolkit-sub-box">
                                 <div class="toolkit-icon">
@@ -107,7 +120,7 @@
 
         <section id="brands-carousel" class="normal-sec">
             <div class="img-container">
-                <img src="/Images/astra-zeneca2.png" alt="">
+                <img src="/Images/astra-zeneca3.png" alt="">
             </div>
             <div class="img-container">
                 <img src="/Images/Sinovac_logo2.png" alt="">
@@ -175,5 +188,10 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iusto aliquam eum quaerat ratione fuga repellendus error deleniti ullam similique at, perspiciatis delectus nostrum? Sed est dolor aut qui sunt?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iusto aliquam eum quaerat ratione fuga repellendus error deleniti ullam similique at, perspiciatis delectus nostrum? Sed est dolor aut qui sunt?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iusto aliquam eum quaerat ratione fuga repellendus error deleniti ullam similique at, perspiciatis delectus nostrum? Sed est dolor aut qui sunt?</p> -->
+
+
+    <!--SCRIPTS-->
+    <!-- <script src="/scripts/nav-bar.js"></script> -->
+
 </body>
 </html>
