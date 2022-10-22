@@ -1,4 +1,389 @@
-@media screen and (max-width:719.999px) {
+/*MEDIUM SIZE SCREEN SMARTPHONES*/
+@media screen and (max-width:479.999px) {
+    /*NAVBAR*/
+    
+    header{
+        /* position: relative; */
+    }
+    
+
+    header .menu{
+        /* position: relative; */
+        /* margin-top: 20px; */
+        margin: 0;
+        /* background-color: red; */
+        padding-top: 40px;
+        padding-left: 0;
+        position: absolute;
+        /* background-color:chartreuse; */
+        background-color: rgba(238,243,255,1);
+        /* background-color: red; */
+
+        /* flex-direction: column; */
+        /* align-content: flex-start; */
+        /* align-content: center; */
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+        right: -280px;
+        /* right: -200px; */
+        /* right: 0; */
+        top: 0;
+        width: 280px;
+        height: 100vh;
+        box-shadow: 0px 50px 20px rgba(0,0,0,0.4);
+        /* box-shadow: 0px 50px 40px rgba(0,0,0,0.6); */
+        transition: 0.45s;
+
+    }
+    header #active-nav-bar{
+        position: absolute;
+        /* background-color: red; */
+        right: 0;
+        /* left: 0;
+        width: 20%;
+        height: 100%; */
+    }
+    header #menu-list{
+        position: relative;
+    }
+
+    #close{
+        display: flex;
+        position: absolute;
+        top: -20px;
+        left: 40px;
+        font-size: 28px;
+        cursor: pointer;
+
+    }
+    #hoax-btn{
+        display: none;
+    }
+
+    header #menu-list{
+        margin: 0;
+        margin-top: 20px;
+        padding-left: 0;
+        flex-direction: column;
+        align-content: flex-start;
+
+    }
+
+    header #menu-list .active{
+       right: 0;
+
+    }
+
+    header #menu-list li{
+        padding: 20px;
+    }
+
+    header #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    header #mobile i{
+        cursor: pointer;
+        font-size: 28px;
+        margin-left: 20px;
+        transition: ease 0.15s;
+
+
+    }
+    header #mobile i:hover{
+        color: var(--secondary-color);
+        transition: ease 0.15s;
+        box-shadow: 6px 6px 15px var(--main-color-shadow);
+
+    }
+
+    header #mobile button{
+        cursor: pointer;
+        font-size: 14px;
+        white-space: nowrap;
+        transition: ease 0.15s;
+
+    }
+
+    header #mobile button:hover{
+        box-shadow: 0 8px 10px rgba(40,72,198,0.3);
+        background-color: var(--secondary-color);
+    }
+    
+    
+    /*HERO*/
+
+    
+    #page-body #hero .hero-text h1 {
+        font-size: 32px;
+    }
+
+    #page-body #hero .hero-text p {
+        font-size: 16px;
+    }
+       
+    #page-body #hero .hero-text .perks {
+        font-size: 15px;
+    }
+
+    #page-body #hero .hero-image{
+        display: none;
+
+    
+    }
+    
+    #page-body #hero .hero-text .smartphone-image{
+        padding: 0 0 30px 0;
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+        
+
+        justify-content: center;
+        /* background-color: beige; */
+        /* text-align: center; */
+    }
+
+    #page-body #hero .hero-text .smartphone-image img{
+        width: 70%;
+
+    }
+
+    /*HERO TOOLKIT*/
+    #page-body #hero .hero-text .schedule{
+        padding-bottom: 250px;
+        /* background-color: bisque; */
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* background-color: aqua; */
+        bottom: -35px;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit .toolkit-sub-box{
+
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit .btn-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit button{
+       
+    }
+
+}
+
+
+
+
+
+/*MEDIUM SIZE SCREEN SMARTPHONES*/
+@media screen and (min-width: 480px) and (max-width:599.999px) {
+    /*NAVBAR*/
+    header{
+        /* position: relative; */
+    }
+
+    header .menu{
+        /* position: relative; */
+        /* margin-top: 20px; */
+        margin: 0;
+        /* background-color: red; */
+        padding-top: 40px;
+        padding-left: 0;
+        position: absolute;
+        /* background-color:chartreuse; */
+        background-color: rgba(238,243,255,1);
+        /* background-color: red; */
+
+        /* flex-direction: column; */
+        /* align-content: flex-start; */
+        /* align-content: center; */
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+        right: -280px;
+        /* right: -200px; */
+        /* right: 0; */
+        top: 0;
+        width: 280px;
+        height: 100vh;
+        box-shadow: 0px 50px 20px rgba(0,0,0,0.4);
+        /* box-shadow: 0px 50px 40px rgba(0,0,0,0.6); */
+        transition: 0.45s;
+
+    }
+    header #active-nav-bar{
+        position: absolute;
+        /* background-color: red; */
+        right: 0;
+        /* left: 0;
+        width: 20%;
+        height: 100%; */
+    }
+    header #menu-list{
+        position: relative;
+    }
+
+    #close{
+        display: flex;
+        position: absolute;
+        top: -20px;
+        left: 40px;
+        font-size: 28px;
+        cursor: pointer;
+
+    }
+    #hoax-btn{
+        display: none;
+    }
+
+    header #menu-list{
+        margin: 0;
+        margin-top: 20px;
+        padding-left: 0;
+        flex-direction: column;
+        align-content: flex-start;
+
+    }
+
+    header #menu-list .active{
+       right: 0;
+
+    }
+
+    header #menu-list li{
+        padding: 20px;
+    }
+
+    header #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    header #mobile i{
+        cursor: pointer;
+        font-size: 28px;
+        margin-left: 20px;
+        transition: ease 0.15s;
+
+
+    }
+    header #mobile i:hover{
+        color: var(--secondary-color);
+        transition: ease 0.15s;
+        box-shadow: 6px 6px 15px var(--main-color-shadow);
+
+    }
+
+    header #mobile button{
+        cursor: pointer;
+        font-size: 14px;
+        white-space: nowrap;
+        transition: ease 0.15s;
+
+    }
+
+    header #mobile button:hover{
+        box-shadow: 0 8px 10px rgba(40,72,198,0.3);
+        background-color: var(--secondary-color);
+    }
+    
+    /*HERO*/
+
+    
+    #page-body #hero .hero-text h1 {
+        font-size: 32px;
+    }
+
+    #page-body #hero .hero-text p {
+        font-size: 16px;
+    }
+       
+    #page-body #hero .hero-text .perks {
+        font-size: 15px;
+    }
+
+    #page-body #hero .hero-image{
+        display: none;
+
+    
+    }
+    
+    #page-body #hero .hero-text .smartphone-image{
+        padding: 0 0 30px 0;
+        /* width: 100%; */
+        display: flex;
+        /* align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+        
+
+        justify-content: center;
+        /* background-color: beige; */
+        /* text-align: center; */
+    }
+
+    #page-body #hero .hero-text .smartphone-image img{
+        width: 70%;
+
+    }
+
+    /*HERO TOOLKIT*/
+    #page-body #hero .hero-text .schedule{
+        padding-bottom: 190px;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit{
+        width: 70%;
+        /* flex-wrap: wrap;
+        
+        bottom: -45px; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit .toolkit-sub-box{
+        margin: 10px 0;
+        width: 100%;
+        /* background-color: pink; */
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit .btn-container{
+       display: flex;
+       align-items: flex-end;
+       justify-content: flex-end;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit button{
+        /* margin: 10px 0; */
+        /* justify-content: end;
+        align-items: flex-end; */
+        width: 100px;
+        /* background-color: pink; */
+    }
+    #page-body #hero .hero-text .schedule .toolkit .btn-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+/*MEDIUM SIZE SCREEN SMARTPHONES*/
+@media screen and (min-width: 600px) and (max-width:719.999px) {
     /*NAVBAR*/
     header{
         /* position: relative; */
@@ -126,6 +511,16 @@
         box-shadow: 0 8px 10px rgba(40,72,198,0.3);
         background-color: var(--secondary-color);
     }
+
+
+    /*HERO*/
+
+    #page-body #hero .hero-image{
+        width: 33%;
+        max-width: 400px;/*WORKS LIKE BUTTER*/
+        max-width: 450px;
+    }
+    
     
     
 }
@@ -251,6 +646,13 @@
     #page-body #hero .hero-text .perks span{
         /* font-size: 18px; */
         font-size: 24px;
+    }
+
+    #page-body #hero .hero-text .schedule .toolkit .toolkit-icon i{
+        /* font-size: 18px; */
+        /* font-size: 24px; */
+        /* width: 26px;
+        height: 26px; */
     }
 
     

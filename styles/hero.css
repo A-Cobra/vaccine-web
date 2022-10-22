@@ -14,7 +14,7 @@
     flex: 1;
     position: relative;
     margin-top: 100px;
-    background-color: red;
+    /* background-color: red; */
     padding-bottom: 60px;
  
 }
@@ -94,6 +94,17 @@
     margin-right: 20px; 
 }
 
+#page-body #hero .hero-text .smartphone-image{
+    width: 100%;
+    display: none;
+}
+
+#page-body #hero .hero-text .smartphone-image img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 #page-body #hero .hero-text .schedule{
     padding-bottom: 120px;
@@ -131,9 +142,7 @@
     max-width: 400px;/*WORKS LIKE BUTTER*/
     max-width: 450px;
     
-    /* flex: 1; */
-    
-    /* max-height: 550px; */
+
  
 }
 
