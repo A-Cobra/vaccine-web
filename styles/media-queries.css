@@ -521,6 +521,25 @@
         max-width: 450px;
     }
     
+    /*THERE IS A SMALL SECTION THAT REQUIRES NESTING*/
+    @media screen and (max-width:687px) {
+        #page-body #feature .feature-cards .card{
+            width: 220px;
+            padding: 40px 40px 50px 40px;
+            /* background-color: aqua; */
+            /* transition: ease-in 0.15s; */
+            /* margin: 40px; */
+    
+        }
+        #page-body #feature .feature-cards .card p{
+            font-size: 12px;
+    
+        }
+        #page-body #feature .feature-cards .card h4{
+            font-size: 14px;
+    
+        }
+    }
     
     
 }
@@ -528,7 +547,9 @@
 
 /*MEDIUM SIZE SCREEN TABLETS*/
 @media screen and (min-width:720px) and (max-width:899.999px) {
-    /*STANDARD RPOGRAMMING, NO CHANGES NEEDED*/
+    /*STANDARD PROGRAMMING 
+    (This was waht we were amming for at the very start),
+    NO CHANGES NEEDED*/
 }
 
 
@@ -586,6 +607,28 @@
     }
     /* #hero > div > div.hero-text > div.perks.side-pad > span.perk1 */
 
+
+
+    /*FEATURE CARDS*/
+    #page-body #feature{
+        padding-top: 170px;
+    }
+
+    #page-body #feature .feature-cards .card{
+        width: 220px;
+        padding: 20px 20px 35px 20px;
+        /* background-color: aqua; */
+        /* transition: ease-in 0.15s; */
+        /* margin: 40px; */
+
+    }
+    #page-body #feature .feature-cards .card h4{
+        font-size: 18px;
+    }
+    #page-body #feature .feature-cards .card p{
+        font-size: 14px;
+
+    }
     
 }
 
@@ -615,8 +658,11 @@
         /* font-family: Roboto, Arial, sans-serif; */
     }
 
-
     h4{
+        font-size: 20px;
+    }
+
+    p{
         font-size: 18px;
         /* font-family: Roboto, Arial, sans-serif; */
     }
@@ -657,6 +703,30 @@
 
     
     /* #hero > div > div.hero-text > div.perks.side-pad > span.perk1 */
+    /*FEATURE CARDS*/
+    #page-body #feature{
+        padding-top: 190px;
+    }
 
+    #page-body #feature .feature-cards .card{
+        width: 250px;
+        padding: 25px 25px 40px 25px;
+        transition: ease-in 0.15s;
+        margin: 40px;
+
+    }
+
+    
+    #page-body #feature .feature-cards .card p{
+        font-size: 16px;
+    }
+
+    #page-body #feature .feature-cards .card i{    
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+    }
+    
+    
     
 }
