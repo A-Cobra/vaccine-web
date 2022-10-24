@@ -12,12 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="../styles/general.css">
+    <!-- <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/nav-bar.css">
     <link rel="stylesheet" href="../styles/hero.css">
     <link rel="stylesheet" href="../styles/carousel.css">
     <link rel="stylesheet" href="../styles/feature.css">
-    <link rel="stylesheet" href="../styles/media-queries.css">
+    <link rel="stylesheet" href="../styles/media-queries.css"> -->
     <link rel="stylesheet" href="../styles/preparations.css">
     <!--Font Awesome Icons-->
     <script src="https://kit.fontawesome.com/3692b39abf.js"></script>
@@ -50,6 +50,7 @@
     </header>
 
     <main id="page-body">
+        
         <section id="hero"> 
             <div class="hero-content">
                 <div class="hero-text">
@@ -194,20 +195,67 @@
                     <img src="/Images/vaccine.jpg" alt="Doctor With Syringe">
                 </div>
                 <div class="prep-text">
-                    <h2>Preparations Before Vaccine</h2>
-                    <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are sveral things that can be tried o make with COVID-19 vaccine work:</p>
+                    <div class="float">
+                        <h2>Preparations Before Vaccine</h2>
+                        <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are sveral things that can be tried o make with COVID-19 vaccine work:</p>
+                    </div>
+                    
+                    
                     <div class="pop-down-container non-active">
+                        <!--DEPLOYABLE CONTENT-->
                         <div class="head non-active">
-                            <i class="fa-solid fa-ban"></i>
-                            <div class="info">
-                                <h3>Avoid alcoholic beverages</h3>
-                                <p class="non-active">
-                                    Alcohol supresses the immune system.Alcoholic beverages therefore compromise the effective activation of antibodies.
-                                </p>
+                            <div class="left">
+                                <div class="i-container">
+                                    <i class="fa-solid fa-ban"></i>
+
+                                </div>
+                                <div class="info">
+                                    <h3>Avoid alcoholic beverages</h3>
+                                    <p>
+                                        Alcohol supresses the immune system.Alcoholic beverages therefore compromise the effective activation of antibodies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <div class="i-container">
+                                    <i class="fa-solid fa-square-caret-down non-active"></i>
+    
+                                </div>
+                                <div class="i-container">
+                                    <i class="fa-solid fa-square-caret-up active"></i>
+    
+                                </div>
                             </div>
                             
-                            <i class="fa-solid fa-square-caret-down non-active"></i>
-                            <i class="fa-solid fa-square-caret-up active"></i>
+                            
+                        </div>
+
+
+
+                        <div class="head active">
+                            <div class="left">
+                                <div class="i-container">
+                                    <i class="fa-solid fa-ban"></i>
+
+                                </div>
+                                <div class="info">
+                                    <h3>Avoid alcoholic beverages</h3>
+                                    <p>
+                                        Alcohol supresses the immune system.Alcoholic beverages therefore compromise the effective activation of antibodies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <div class="i-container">
+                                    <i class="fa-solid fa-square-caret-down non-active"></i>
+    
+                                </div>
+                                <div class="i-container">
+                                    <i class="fa-solid fa-square-caret-up active"></i>
+    
+                                </div>
+                            </div>
+                            
                             
                         </div>
 
