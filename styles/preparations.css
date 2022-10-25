@@ -29,17 +29,22 @@
     
 }
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head{
     padding-top: 20px;
     width: 85%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+    border: 3px solid var(--icon-background-color);
+    border-radius: 5px;
+    border: 3px solid black;
+    z-index: 100;
 
 }
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head i{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head i{
     margin: 0 15px;
     font-size: 20px;
     width: 30px;
@@ -56,7 +61,7 @@
 
 
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head i{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head i{
     /* margin: 0 15px;
     font-size: 30px;
     width: 300px;
@@ -72,7 +77,7 @@
 }
 
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head .left{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head .left{
     /* display: none; */
     background-color: purple;
     background-color: white;
@@ -81,30 +86,35 @@
 
 }
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head .left .info h3{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head .left .info{
+    flex: 1;
+
+}
+
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head .left .info h3{
     margin: 0;
 
 }
 
 
 /*The block is not activated*/
-#page-body #preparations .prep-content .prep-text .pop-down-container .head.non-active i.active{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head.non-active i.active{
     display: none;
     /* background-color: blue; */
 }
 
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head.non-active .info p{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head.non-active .info p{
     display: none;
 }
 
 /*The block is activated*/
-#page-body #preparations .prep-content .prep-text .pop-down-container .head.active i.active{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head.active i.active{
     display: flex;
     /* background-color: blue; */
 }
 
 
-#page-body #preparations .prep-content .prep-text .pop-down-container .head.active i.non-active{
+#page-body #preparations .prep-content .prep-text .pop-down-container .pop-head.active i.non-active{
     display: none;
 }
